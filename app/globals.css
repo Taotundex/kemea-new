@@ -26,7 +26,6 @@
   font-style: normal;
 }
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,11 +95,69 @@
 }
 
 @layer base {
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+
+  .border-border {
+    border-color: hsl(var(--border));
+  }
+
   * {
     @apply border-border;
   }
 
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+.container {
+  width: 1285px !important;
+  margin: 0 auto;
+}
+.home .products .call {
+  width: 225px !important;
+  height: 37px !important;
+}
+.reaction small {
+  background: #1dbf73;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 80% !important;
+  }
+  .home .products .call {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .container {
+    width: 85% !important;
+  }
+  .home .products .call {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90% !important;
+  }
+  .home .products .call {
+    width: 200px !important;
+  }
+}
+@media screen and (max-width: 639px) {
+  .container {
+    width: 95% !important;
+  }
+  .home .products .call {
+    width: 100% !important;
   }
 }
