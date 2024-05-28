@@ -30,6 +30,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* globals.css */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -127,6 +133,15 @@
 .reaction small {
   background: #1dbf73;
   border-radius: 10px;
+}
+.circular-progress {
+  background: conic-gradient(
+    blue 0deg 120deg,
+    gray 120deg 360deg
+  );
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width: 1400px) {
