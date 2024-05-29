@@ -128,12 +128,12 @@
 }
 .home .products .call {
   width: 225px !important;
-  height: 37px !important;
+  height: 40px !important;
 }
-.reaction small {
+/* .reaction small {
   background: #1dbf73;
   border-radius: 10px;
-}
+} */
 .circular-progress {
   background: conic-gradient(
     blue 0deg 120deg,
@@ -143,13 +143,68 @@
   width: 100px;
   height: 100px;
 }
+.slider{
+  background: linear-gradient(to right, #28C937, #FFB92E, #FF8C4B, #FF2000);
+  @apply w-full h-2 rounded-lg appearance-none;
+    background: linear-gradient(to right, #00ff00, #ff0000);
+    outline: none;
+    opacity: 0.9;
+    transition: opacity .15s ease-in-out;
+  }
 
+  .slider:hover {
+    opacity: 1;
+  }
+
+  .slider::-webkit-slider-thumb {
+    @apply w-6 h-6 bg-white rounded-full cursor-pointer shadow border;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .slider::-moz-range-thumb {
+    @apply w-6 h-6 bg-white rounded-full cursor-pointer shadow;
+  }
+
+  .slider::-ms-thumb {
+    @apply w-6 h-6 bg-white rounded-full cursor-pointer shadow;
+}
+.react-tel-input .selected-flag {
+  outline: none !important;
+  position: relative;
+  background: white !important;
+  width: 38px;
+  height: fit-content;
+  padding: 0 !important;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid white !important;
+}
+.react-tel-input .form-control {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: .01rem;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 48px;
+  margin-left: 0;
+  background: #FFFFFF;
+  border: none !important;
+  border-radius: 5px;
+  line-height: 25px;
+  height: fit-content !important;
+  width: 100% !important;
+  outline: none;
+}
+.overflow-y-scroll::-webkit-scrollbar {
+  display: none !important;
+}
 @media screen and (max-width: 1400px) {
   .container {
     width: 80% !important;
   }
   .home .products .call {
     width: 100% !important;
+    font-size: 15px !important;
   }
 }
 @media screen and (max-width: 1023px) {
