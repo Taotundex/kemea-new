@@ -20,7 +20,7 @@ const page = () => {
   const [loanDuration, setLoanDuration] = useState(20);
   const [loanRate, setLoanRate] = useState(4.04);
 
-  const estimatedMonthlyPayment = 2756; 
+  // const estimatedMonthlyPayment = 2756; 
   return (
     <div>
       <div className="container">
