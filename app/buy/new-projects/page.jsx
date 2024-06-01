@@ -21,7 +21,7 @@ const page = () => {
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-between z-100">
-                        <small className="text-white bg-[#1dbf73] rounded-xl px-3 py-1.5 text-xs">Sale</small>
+                        <small className="text-white bg-[#1dbf73] px-3 py-1.5 text-xs">Sale</small>
                         <img src="/images/heart.svg" width='21px' height='18px' alt="" />
                       </div>
                     </div>
