@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import PhoneInputComponent from '../components/PhoneInput';
+import './page.css'
 
 const page = () => {
     const [phone, setPhone] = useState('');
