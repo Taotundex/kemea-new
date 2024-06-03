@@ -26,16 +26,23 @@
   font-style: normal;
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< Updated upstream
 /* globals.css */
 /* @import 'swiper/css';
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination'; */
 
 
+=======
+>>>>>>> Stashed changes
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -101,6 +108,7 @@
 }
 
 @layer base {
+<<<<<<< Updated upstream
   .bg-background {
     background-color: hsl(var(--background));
   }
@@ -113,6 +121,8 @@
     border-color: hsl(var(--border));
   }
 
+=======
+>>>>>>> Stashed changes
   * {
     @apply border-border;
   }
@@ -120,6 +130,7 @@
   body {
     @apply bg-background text-foreground;
   }
+<<<<<<< Updated upstream
 }
 
 .container {
@@ -231,3 +242,6 @@
     width: 100% !important;
   }
 }
+=======
+}
+>>>>>>> Stashed changes

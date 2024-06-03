@@ -54,7 +54,11 @@ const config = {
         },
         card: {
           DEFAULT: "hsl(var(--card))",
+<<<<<<< Updated upstream
           foreground: "hsl(var(--card       -foreground))",
+=======
+          foreground: "hsl(var(--card-foreground))",
+>>>>>>> Stashed changes
         },
       },
       borderRadius: {
