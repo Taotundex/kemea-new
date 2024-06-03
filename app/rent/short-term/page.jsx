@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Header from '../../components/Header'
+// import Header from '../../components/Header'
 import { IoCallOutline } from 'react-icons/io5'
 
 const page = () => {
@@ -8,7 +8,7 @@ const page = () => {
     <div className='home'>
       {/* <div className="container"> */}
         <main className="font-primary text-text-color">
-            <Header />
+            {/* <Header /> */}
             <div className="mt-8 flex flex-col space-y-2 mx-20">
                 <h2 className="text-[35px] font-normal font-font-spring" >Short Term Properties</h2>
             </div>
@@ -17,7 +17,7 @@ const page = () => {
                 <div className="grid grid-cols-1 gap-6 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">
                   <div className="card">
                     <div className="upper-img relative">
-                      <Link href='/home-description' className="img">
+                      <Link href='short-term/description' className="img">
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-end z-100">
@@ -37,7 +37,7 @@ const page = () => {
                   </div>
                   <div className="card">
                     <div className="upper-img relative">
-                      <Link href='/home-description' className="img">
+                      <Link href='short-term/description' className="img">
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-end z-100">
@@ -57,7 +57,7 @@ const page = () => {
                   </div>
                   <div className="card">
                     <div className="upper-img relative">
-                      <Link href='/home-description' className="img">
+                      <Link href='short-term/description' className="img">
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-end z-100">
@@ -77,7 +77,7 @@ const page = () => {
                   </div>
                   <div className="card">
                     <div className="upper-img relative">
-                      <Link href='/home-description' className="img">
+                      <Link href='short-term/description' className="img">
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-end z-100">
@@ -97,7 +97,7 @@ const page = () => {
                   </div>
                   <div className="card">
                     <div className="upper-img relative">
-                      <Link href='/home-description' className="img">
+                      <Link href='short-term/description' className="img">
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-end z-100">
@@ -117,7 +117,7 @@ const page = () => {
                   </div>
                   <div className="card">
                     <div className="upper-img relative">
-                      <Link href='/home-description' className="img">
+                      <Link href='short-term/description' className="img">
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-end z-100">
@@ -137,7 +137,7 @@ const page = () => {
                   </div>
                   <div className="card">
                     <div className="upper-img relative">
-                      <Link href='/home-description' className="img">
+                      <Link href='short-term/description' className="img">
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-end z-100">
@@ -157,7 +157,7 @@ const page = () => {
                   </div>
                   <div className="card">
                     <div className="upper-img relative">
-                      <Link href='/home-description' className="img">
+                      <Link href='short-term/description' className="img">
                         <img src="/images/Group1.png" width='100%' className='rounded-xl size-full' alt="" />
                       </Link>
                       <div className="reaction w-full px-5 absolute top-4 left-0 flex justify-end z-100">

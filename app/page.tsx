@@ -1,7 +1,7 @@
-// import Image from 'next/image'
 import Link from 'next/link'
-// import Header from './components/Header'
 import { IoCallOutline } from 'react-icons/io5'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <div className='home'>
       {/* <div className="container"> */}
         <main className="font-primary text-text-color">
-            {/* <Header /> */}
+            <Header />
             <div className="flex flex-col gap-[15px] py-[20px] container">
                 <h2 className="text-[35px] text-[#191C1F] font-medium font-font-spring" >Find the right property, right away</h2>
                 <p className="text-[#191C1F] font-font-spring font-normal text-[20px]">Kemea supports your property research in Israel at every stage</p>
@@ -180,9 +180,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="fixed bottom-0 flex flex-row"> 
-            
-            </div>
+            <Footer />
         </main>
       {/* </div> */}
     </div>

@@ -7,9 +7,9 @@ const page = () => {
   return (
     <div>
         <div className="container">
-            <div className="top py-4 text-[13px] flex gap-[10px] font-normal">
-                <Link href='/' className='underline-none text-[#191C1F]'>kemea</Link>
-                <img src="../images/next.svg" alt="" />
+            <div className="top py-4 text-[14px] flex gap-[10px] font-normal">
+                <Link href='/user' className='underline-none text-[#191C1F]'>kemea</Link>
+                <img src="/images/next.svg" alt="" />
                 <p className='text-[#0666EB]'>Affordability Calculator</p>
             </div>
             
@@ -83,7 +83,7 @@ const page = () => {
                                         <div className="text-[#333333] font-black text-[19px]">
                                             ₪ <span className='text-[#CCCCCC]'>-,---</span>
                                         </div>
-                                        <img src="../images/more.svg" alt="" />
+                                        <img src="/images/more.svg" alt="" />
                                     </div>
                                 </div>
                                 <div className="flex items-center justify-between py-4">
@@ -106,7 +106,7 @@ const page = () => {
                             <hr />
                             <div className="flex items-center justify-between gap-5 pt-4">
                                 <p>Add a location to see homes that fit your budget</p>
-                                <img src="../images/loc.png" alt="" />
+                                <img src="/images/loc.png" alt="" />
                             </div>
                         </div>
                     </div>
